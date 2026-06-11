@@ -1,0 +1,8 @@
+{
+  "name": "Cyberspace",
+  "description": "A premium, futuristic cybersecurity landing page featuring secure workspace collaboration tools.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
