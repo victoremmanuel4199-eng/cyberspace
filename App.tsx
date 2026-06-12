@@ -12,6 +12,7 @@ import FinalCTA from './components/FinalCTA';
 import BackgroundEffects from './components/ui/BackgroundEffects';
 import AuthModal from './components/AuthModal';
 import { ArrowRight, Loader2 } from 'lucide-react';
+import { SpeedInsights } from '@vercel/speed-insights/react';
 
 // Auth
 import { useAuth } from './lib/AuthContext';
@@ -102,6 +103,7 @@ const App: React.FC = () => {
   return (
     <div className="relative min-h-screen overflow-x-hidden selection:bg-emerald-100 selection:text-emerald-900">
       <BackgroundEffects />
+      <SpeedInsights />
       
       <div className="relative z-10">
         <Navbar onNavigate={navigate} onOpenAuth={openAuthModal} />
